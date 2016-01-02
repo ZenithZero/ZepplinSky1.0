@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -19,7 +19,7 @@ namespace TerrainGenerator
 
         private void Awake()
         {
-            Settings = new TerrainChunkSettings(129, 129, 1025, -400, FlatTexture, SteepTexture, TerrainMaterial);
+            Settings = new TerrainChunkSettings(257, 257, 1025, -400, FlatTexture, SteepTexture, TerrainMaterial);
             NoiseProvider = new NoiseProvider();
 
             Cache = new ChunkCache();

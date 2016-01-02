@@ -49,6 +49,7 @@
      <Compile Include="Assets\Code\AltitudeControl.cs" />
      <Compile Include="Assets\Code\CameraMove.cs" />
      <Compile Include="Assets\Code\CameraPan.cs" />
+     <Compile Include="Assets\Code\CameraViewDisp.cs" />
      <Compile Include="Assets\Code\GameController.cs" />
      <Compile Include="Assets\Code\Generator\Chunk\ChunkCache.cs" />
      <Compile Include="Assets\Code\Generator\Chunk\TerrainChunk.cs" />
